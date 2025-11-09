@@ -7,3 +7,6 @@ aspect ratio tools for confyui
 You can find in
 
 MC nodi
+
+example:
+you can use for 2.31:1 inserting 231 100
