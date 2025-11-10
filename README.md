@@ -1,5 +1,5 @@
 # mc_cascade_res
-aspect ratio tools for confyui
+aspect ratio tools node for confyui
 
 Manual Installation:
 
