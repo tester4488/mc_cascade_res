@@ -19,4 +19,4 @@ You can find in
 MC nodi
 
 example:
-for 2.31:1 aspect rartio, insert 231 100
+for 2.31:1 aspect ratio, insert 231 100
