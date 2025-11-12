@@ -1,0 +1,15 @@
+[project]
+name = "mc_qwen"
+description = "comfyui node for aspect ratio."
+version = "1.0.1"
+license = {text = "MIT License"}
+
+[project.urls]
+Repository = "https://github.com/tester4488/mc_cascade_res.git"
+#  Used by Comfy Registry https://registry.comfy.org
+
+
+[tool.comfy]
+PublisherId = "tester4488"
+DisplayName = "node for aspext ratio"
+Icon = ""
