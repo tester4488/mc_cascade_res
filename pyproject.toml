@@ -1,7 +1,7 @@
 [project]
 name = "mc_cascade_res"
 description = "comfyui node for aspect ratio."
-version = "1.0.0"
+version = "1.0.1"
 license = {text = "MIT License"}
 
 [project.urls]
