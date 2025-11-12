@@ -474,8 +474,8 @@ NODE_CLASS_MAPPINGS = {
     # "McCascadeRes": McCascadeRes,
     # "McCascadeRes2": McCascadeRes2,
     # "McCascadeRatio": McCascadeRatio,
-    "AspectSize_mc": AspectSize_mc,
-    "AspectSize2_mc": AspectSize2_mc,
+    # "AspectSize_mc": AspectSize_mc,
+    # "AspectSize2_mc": AspectSize2_mc,
     "AspectSize3_mc": AspectSize3_mc
 }
 
@@ -483,7 +483,8 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     # "McCascadeRes": "Cascade resolution by MC",
     # "McCascadeRes2": "Cascade resolution V2 by MC",
     # "McCascadeRatio": "Image aspect ratio calculator by MC",
-    "AspectSize_mc": "Aspect ratio universal",
-    "AspectSize2_mc": "Aspect ratio universal v2",
+    # "AspectSize_mc": "Aspect ratio universal",
+    # "AspectSize2_mc": "Aspect ratio universal v2",
     "AspectSize3_mc": "Aspect ratio universal v3"
+
 }
