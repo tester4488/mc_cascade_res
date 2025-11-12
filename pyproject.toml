@@ -1,5 +1,5 @@
 [project]
-name = "mc_qwen"
+name = "mc_cascade_res"
 description = "comfyui node for aspect ratio."
 version = "1.0.0"
 license = {text = "MIT License"}
