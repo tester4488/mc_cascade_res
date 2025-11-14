@@ -1,6 +1,8 @@
 # mc_cascade_res
 aspect ratio tools node for confyui
 
+Install Via ComfyUI Manager.
+
 Manual Installation:
 
 ```bash
