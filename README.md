@@ -22,3 +22,6 @@ MC nodi
 
 example:
 for 2.31:1 aspect ratio, insert 231 100
+
+<img width="384" height="207" alt="immagine" src="https://github.com/user-attachments/assets/625a9c72-299a-40b9-a4d7-564a9106d153" />
+
