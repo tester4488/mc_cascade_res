@@ -119,12 +119,40 @@ class LTXVsize_mc(io.ComfyNode):
         return io.NodeOutput(larghezza, altezza)
     
 
+    
+class Wan_frames_mc(io.ComfyNode):
+    
+    @classmethod
+    def define_schema(cls) -> io.Schema:
+        return io.Schema(
+            node_id="Wan frames mc",
+            display_name="Wan video frames",
+            category="MC nodi/Wan",
+            inputs=
+            [
+                io.Int.Input
+                ("frames", default=81, min=1, max=4096, step=4, display_mode=io.NumberDisplay.number)          
+            ],
+            outputs=
+            [
+                io.Int.Output(display_name="frames")
+            ],
+        )
+    @classmethod
+    def execute(cls,frames) -> io.NodeOutput:
+    
+        return io.NodeOutput(frames)
+        
+        
+        
+    
 class MCAspectSizeExtension(ComfyExtension):
     @override
     async def get_node_list(self) -> list[type[io.ComfyNode]]:
         return [
             AspectSize3_mc,
             LTXVsize_mc,
+            Wan_frames_mc,
         ]
 
 async def comfy_entrypoint() -> MCAspectSizeExtension:
