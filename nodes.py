@@ -142,7 +142,31 @@ class Wan_frames_mc(io.ComfyNode):
     def execute(cls,frames) -> io.NodeOutput:
     
         return io.NodeOutput(frames)
+ 
+
+class MC_PromptText_dynamic(io.ComfyNode):
+
+    @classmethod
+    def define_schema(cls) -> io.Schema:
+        return io.Schema(
+            node_id="MC_PromptText_dynamic",
+            display_name="MC Prompt Text Dynamic",
+            category="MC nodi/Text",
+            
+            inputs=
+            [                                  
+                io.String.Input("prompt", default="", multiline=True, dynamic_prompts=True)           
+            ],
+            
+            outputs=
+            [
+                io.String.Output(display_name="prompt")
+            ]
+        )
+    @classmethod    
+    def execute(cls,prompt) -> io.NodeOutput:
         
+        return io.NodeOutput(prompt) 
         
         
     
@@ -153,6 +177,7 @@ class MCAspectSizeExtension(ComfyExtension):
             AspectSize3_mc,
             LTXVsize_mc,
             Wan_frames_mc,
+            MC_PromptText_dynamic
         ]
 
 async def comfy_entrypoint() -> MCAspectSizeExtension:
